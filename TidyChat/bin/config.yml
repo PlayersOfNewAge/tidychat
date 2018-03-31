@@ -1,0 +1,25 @@
+# ------------------------------------------
+# TidyChat | Version: 1.0 #                |
+# Made By GameUx Studios / Poyraz Hancılar |
+# ------------------------------------------
+
+# Activates/De-Activates Caps-Lock Protection 
+capsLockProtect: true
+
+# If players say a banned word, send message to console?
+sendConsoleMessages: true
+
+# If players say a banned word, write a log to ChatLog.txt
+writeLogFiles: true
+
+# If player say a banned word, system give a mute to Player.
+autoMute: true 
+
+# List of the banned words.
+bannedWords: []
+
+# Players name in this list, they can add/del banned word, reload config and more.
+authorizedPlayers: []
+
+# Players name in this list, if they say bad word they are not effected. And they don't take warning.
+bypassPlayers: []

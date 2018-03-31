@@ -1,0 +1,26 @@
+name: TidyChat
+author: GameUx Studios / Poyraz Hancilar
+version: 1.0
+main: com.gameux.plugins.tidychat.TidyChat
+
+commands:
+    tc:
+      Description: Butun TidyChat komutlarina erisim saglarsiniz.
+      
+permissions:
+    tc.*:
+        Description: Use all TidyChat Commands
+        children:
+            tc.addword: true
+            tc.delword: true
+            tc.reloadconfig: true
+        default: op
+    tc.addword:
+        Description: Get a perm to add word to banned words list
+        default: op
+    tc.delword:
+        Description: Get a perm to delete word from banned words list
+        default: op
+    tc.reloadconfig:
+        Description: Reloads the config
+        default: op
